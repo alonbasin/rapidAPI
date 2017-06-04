@@ -65,6 +65,6 @@ module.exports = {
     },
 
     'after': function(browser) {
-        //browser.end();
+        browser.end();
     }
 };
