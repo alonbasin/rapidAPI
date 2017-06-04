@@ -1,6 +1,3 @@
-/**
- * Created by Alon on 6/2/2017.
- */
 module.exports = {
     url: 'http://rapidapi.com',
     elements: {

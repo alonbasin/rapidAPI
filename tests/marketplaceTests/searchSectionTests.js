@@ -1,8 +1,4 @@
-let marketplace;
-let searchSection;
-let videoSection;
-let mostUsedSection;
-let categoriesSection;
+let marketplace, searchSection, mostUsedSection;
 
 module.exports = {
 
@@ -24,15 +20,7 @@ module.exports = {
 
         //init sections
         searchSection = marketplace.section.searchSection;
-        videoSection = marketplace.section.videoSection;
         mostUsedSection = marketplace.section.mostUsedSection;
-        categoriesSection = marketplace.section.categoriesSection;
-    },
-
-
-    'open / close video': function (browser) {
-        searchSection.waitForElementVisible('@videoButton').click('@videoButton');
-        videoSection.waitForElementVisible('@videoContainer').click('@closeButton');
     },
 
 
@@ -54,15 +42,6 @@ module.exports = {
         //     });
     },
 
-
-    'select category functionality': function (browser) {
-        //categoriesSection.waitForElementVisible('@categoriesSectionTitle');
-        //categoriesSection.moveToElement('li',0 ,0).click('li');
-        // browser
-        //     .useXpath()
-        //     .click("//a[text()='Translation']")
-        //     .useCss()
-    },
 
     'after': function(browser) {
         browser.end();

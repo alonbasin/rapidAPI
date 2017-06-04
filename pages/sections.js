@@ -1,6 +1,3 @@
-/**
- * Created by Alon on 6/3/2017.
- */
 module.exports = {
     sections: {
         nav: {
