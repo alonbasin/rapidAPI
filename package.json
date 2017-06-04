@@ -1,0 +1,20 @@
+{
+  "name": "rapid-api",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "node_modules/.bin/nightwatch",
+    "postinstall": "node nightwatch.conf.js"
+  },
+  "author": "Alon Basin",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.9.15",
+    "selenium-download": "^2.0.10"
+  },
+  "devDependencies": {
+    "nightwatch": "^0.9.15",
+    "nightwatch-custom-commands-assertions": "^1.0.5",
+    "selenium-download": "^2.0.10"
+  }
+}
